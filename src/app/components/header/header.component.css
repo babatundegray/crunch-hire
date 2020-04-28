@@ -1,18 +1,23 @@
 .nav-bar {
   width: 100%;
   background: #132eb2 0% 0% no-repeat padding-box;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   top: 0;
+  z-index: 10;
+
 }
 
 .navbar-items {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: #fff;
   font-weight: 400;
   font-size: 14px;
-  min-width: 1000px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .nav-bar div img {
@@ -36,7 +41,7 @@
 }
 
 .list-items{
-    margin-right: -150px;
+  margin-right: -150px;
 }
 
 .btn {
