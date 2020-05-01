@@ -1,0 +1,76 @@
+
+.__subscribe {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .__subscribe-content {
+    /* margin: 0 auto; */
+    justify-content: center;
+    max-width: 1100px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    line-height: 1.2;
+  }
+
+  .__subscribe-content h1 {
+    font-size: 3rem;
+  }
+
+  .__subscribe-content h3 {
+    font-size: 1.65rem;
+    font-weight: 300;
+  }
+
+  .__sub-btn {
+    margin-top: 1rem;
+ 
+  }
+
+  ._sub-input{
+    width: 3rem;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+    width: 400px;
+  }
+
+  .btn-sub {
+    background: #132eb2 0% 0% no-repeat padding-box !important;
+    color: #fff;
+    border: 3px solid #132eb2;
+    margin-right: 5px;
+  }
+
+  .__sub-group{
+    margin-top: 1rem;
+    padding-right: 10px;
+  }
+
+  .__bc{
+    background: #fff !important;
+    border: none;
+  }
+
+  .btn {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  .btn-secondary {
+    background: #ffa81d 0% 0% no-repeat padding-box;
+    border: 3px solid #ffa81d;
+  }

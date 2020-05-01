@@ -1,0 +1,43 @@
+footer{
+    padding-top: 5rem;
+    background: rgb(19,46,178);
+    padding-bottom: 5rem;
+
+}
+.__footer{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.__footer div img{
+    width: 220px;
+    cursor: pointer;
+}
+
+.__footer div ul {
+
+}
+
+.__footer div ul li {
+    color: rgb(215,221,249);
+    font-size: 18px;
+    padding: 14px;
+    list-style-type: none;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.__footer div ul li:hover {
+    color: #fff;
+}
+
+.__footer div h2 {
+    color: #fff;
+    padding: 14px;
+}
+
+.__footer .__mb{
+    margin-top: 3.1rem;
+}

@@ -1,11 +1,10 @@
 .nav-bar {
   width: 100%;
   background: #132eb2 0% 0% no-repeat padding-box;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   z-index: 10;
-
 }
 
 .navbar-items {
@@ -13,7 +12,6 @@
   align-items: center;
   justify-content: space-around;
   color: #fff;
-  font-weight: 400;
   font-size: 14px;
   max-width: 1200px;
   width: 100%;
@@ -33,30 +31,35 @@
   padding-left: 18px;
   padding-right: 18px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-bar div ul li:hover {
+  opacity: 0.5;
 }
 
 .nav-bar div .btn {
   display: flex;
 }
 
-.list-items{
+.list-items {
   margin-right: -150px;
 }
 
 .btn {
   padding: 0;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn button {
   outline: none;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
   border: none;
   text-align: center;
   padding: 12px 20px;
-  background: #FFA81D 0% 0% no-repeat padding-box;
+  background: #ffa81d 0% 0% no-repeat padding-box;
   letter-spacing: 1px;
   cursor: pointer;
 }
