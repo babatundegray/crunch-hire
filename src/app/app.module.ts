@@ -4,9 +4,11 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { MainComponent } from './components/main/main.component';
+import { MainComponent } from './main/main.component';
 import { AppRoutingModule } from './app-routing.module';
-import { SubscribeComponent } from './subscribe/subscribe.component';
+import { SubscribeComponent } from './components/subscribe/subscribe.component';
+import { FAQsComponent } from './faqs/faqs.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    FAQsComponent
   ],
   imports: [
     BrowserModule,
