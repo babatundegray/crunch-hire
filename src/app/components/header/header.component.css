@@ -10,12 +10,13 @@
 .navbar-items {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   color: #fff;
   font-size: 14px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   width: 100%;
   margin: 0 auto;
+  padding: 0 !important;
 }
 
 .nav-bar div img {
@@ -28,8 +29,7 @@
   display: inline-block;
   justify-content: center;
   align-items: center;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 18px 18px 0 18px;
   letter-spacing: 2px;
   font-size: 16px;
   cursor: pointer;
@@ -43,8 +43,8 @@
   display: flex;
 }
 
-.list-items {
-  margin-right: -150px;
+.navbar-items .list-items {
+  /* margin-right: -150px; */
 }
 
 .btn {

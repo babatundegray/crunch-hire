@@ -5,9 +5,7 @@ footer{
 
 }
 .__footer{
-
-    display: flex;
-    justify-content: space-evenly;
+    padding: 0 !important;
     margin: 0 auto;
 }
 
@@ -16,9 +14,6 @@ footer{
     cursor: pointer;
 }
 
-.__footer div ul {
-
-}
 
 .__footer div ul li {
     color: rgb(215,221,249);
@@ -33,9 +28,11 @@ footer{
     color: #fff;
 }
 
-.__footer div h2 {
+.__footer div h3 {
     color: #fff;
     padding: 14px;
+    font-weight: bold;
+    font-size: 1.5rem !important;
 }
 
 .__footer .__mb{
