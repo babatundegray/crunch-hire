@@ -1,4 +1,4 @@
-<nav class="nav-bar">
+<nav class="navbar nav-bar">
   <div class="container navbar-items d-flex justify-content-between">
     <div>
       <img
@@ -9,16 +9,21 @@
       />
     </div>
     <div class="list-items">
-      <ul>
-        <li>Why CH?</li>
-        <LI>Our Role</LI>
-        <li>How We Vet</li>
-        <li [routerLink]="['/faq']"> FAQ</li>
+      <ul class="" id="js-menu">
+        <li class="" [routerLink]="['/why-ch']" class="nav-item">Why CH?</li>
+        <li [routerLink]="['/our-role']" class="nav-item">Our Role</li>
+        <li [routerLink]="['/how-we-vet']" class="nav-item">How We Vet</li>
+        <li [routerLink]="['/faq']" class="nav-item">FAQ</li>
         <li>Blog</li>
       </ul>
     </div>
     <div class="btn">
       <button>Apply As Freelancer</button>
     </div>
+    <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+      <i class="fa fa-bars"></i>
+    </label>
+    <input type="checkbox" id="chkToggle" />
   </div>
 </nav>
+

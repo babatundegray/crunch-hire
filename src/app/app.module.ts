@@ -8,6 +8,9 @@ import { MainComponent } from './main/main.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { FAQsComponent } from './faqs/faqs.component';
+import { OurRoleComponent } from './our-role/our-role.component';
+import { WhyChComponent } from './why-ch/why-ch.component';
+import { HowWeVetComponent } from './how-we-vet/how-we-vet.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { FAQsComponent } from './faqs/faqs.component';
     FooterComponent,
     MainComponent,
     SubscribeComponent,
-    FAQsComponent
+    FAQsComponent,
+    OurRoleComponent,
+    WhyChComponent,
+    HowWeVetComponent
   ],
   imports: [
     BrowserModule,
